@@ -1,29 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="google-site-verification" content="66r5U9HAhyaVzEjB41wtkTN2BGD7YEmI_DkgRChKor4" />
-  <title>TravelBug - Around The World</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title -->
+  <title>TravelBug — Track Your Travel</title>
+
+  <!-- Open Graph (iMessage, LinkedIn, etc.) -->
+  <meta property="og:title" content="TravelBug — Track Your Travel" />
+  <meta property="og:description" content="Your travel. Visualized. Track flights, places, and milestones automatically." />
+  <meta property="og:image" content="https://gettravelbug.com/preview.png" />
+  <meta property="og:url" content="https://gettravelbug.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TravelBug — Track Your Travel" />
+  <meta name="twitter:description" content="Your travel. Visualized." />
+  <meta name="twitter:image" content="https://gettravelbug.com/preview.png" />
+
+  <!-- iOS Smart Banner -->
+  <meta name="apple-itunes-app" content="app-id=6760630281">
+
+  <!-- Redirect -->
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://apps.apple.com/app/id6760630281";
+    }, 1200);
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0b1f3a;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 400px;
+      padding: 20px;
+    }
+    img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p {
+      opacity: 0.7;
+      margin-bottom: 20px;
+    }
+    a {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 10px;
+      background: #1d4ed8;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>TravelBug - Around The World</h1>
-  <p>Track your global travel adventures automatically.</p>
-
-  <h2>About TravelBug</h2>
-  <p>TravelBug is a travel tracking application that helps you visualize and explore your travel history. Connect your calendar to automatically track countries, cities, and travel patterns across your journeys.</p>
-
-  <h2>Features</h2>
-  <ul>
-    <li>Automatic travel detection from calendar events</li>
-    <li>Track countries and cities visited</li>
-    <li>Visualize your travel patterns</li>
-    <li>All data stored locally on your device</li>
-  </ul>
-
-  <h2>Links</h2>
-  <ul>
-    <li><a href="privacy-policy.html">Privacy Policy</a></li>
-    <li><a href="terms.html">Terms of Service</a></li>
-    <li><a href="support.html">Support</a></li>
-  </ul>
+  <div class="container">
+    <img src="preview.png" alt="TravelBug" />
+    <h1>TravelBug</h1>
+    <p>Your travel. Visualized.</p>
+    <a href="https://apps.apple.com/app/id6760630281">
+      Open in App Store
+    </a>
+  </div>
 </body>
 </html>
